@@ -1,0 +1,505 @@
+body {
+  font-family: Calibri;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+a {
+	text-decoration: none;
+}
+h2 {
+	color: yellow;
+}
+h2,h3,h4 {
+	text-transform: uppercase;	
+}
+header {
+	position: absolute;
+	padding: 0;
+	margin: 0 auto;
+	width: 1240px;
+	height: 130px;
+	top:0;
+	left: 0;
+	right: 0;	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+	z-index: 9;
+}
+nav {
+	display: none;
+}
+
+.logo {
+	width: 20%;
+}
+.logo img {
+	width: 350px;
+	margin-left: -50px;
+}
+.menu{
+	width: 80%;
+}
+.menu ul {
+	display: flex;	
+	justify-content: flex-end;
+	align-items: center;
+	flex-wrap: wrap;
+	color: #ffffff;
+}
+.menu ul li {
+	padding: 5px 15px;
+	list-style: none;
+}
+.menu ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.menu ul li:hover a{
+	color: #000000;
+	cursor: pointer;
+}
+.menu ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.home h2 {
+	font-size: 40px;
+}
+section {	
+	height: 100vh;
+	width: 100%;
+}
+.home{
+	background: url(./img/home.jpg) no-repeat fixed;
+	background-size: cover;
+	background-position: center;
+}
+.about {	
+	background: url(./img/about.jpg) no-repeat fixed;
+	background-size: cover;
+	background-position: center;
+}
+.service {
+	background: url(./img/service.jpg) no-repeat fixed;
+  	background-size: cover;
+  	background-position: center;
+}
+.news {
+	background: url(./img/news.jpg) no-repeat fixed;
+  	background-size: cover;
+  	background-position: center;
+}
+.volunteer {
+	background: url(./img/volunteer.jpg) no-repeat fixed;
+  	background-size: cover;
+  	background-position: center;
+}
+.animals {
+	background: url(./img/animals.jpg) no-repeat fixed;
+	background-size: cover;
+	background-position: center;
+}
+.help {
+	background: url(./img/help.jpg) no-repeat fixed;
+	background-size: cover; 
+	background-position: center; 	
+}
+.contacts {
+	background: url(./img/contacts.jpg) no-repeat fixed;
+	background-size: cover; 
+	background-position: center; 	
+}
+
+.over {
+	position: fixed;
+	top:0;
+	left: 0;
+	background-color: rgba(0,0,0,.3);
+	width: 100%;
+	height: 100%;
+}
+.content {	
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+  	align-items: center;
+  	width: 1240px;
+  	margin: auto;
+  	height: 100%;
+}
+.box {
+	position: relative;
+	color: #fff;	
+}
+.box p {
+	font-size: 20px;
+}
+.box ul li {
+	font-size: 20px;
+}
+.box a {
+	color: #fff;
+}
+.box a:hover {
+	background: #ffffff;
+	color: #000;
+}
+.btn {
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-transform: uppercase;
+}
+.box .btn {
+	margin-top: 60px;
+}
+
+
+
+.about .box {
+	width: 40%;
+}
+.about .content {
+	justify-content: flex-end;
+}
+.service .content {
+padding-top: 50px;
+
+}
+.news .content {
+	align-items: flex-end;
+}
+.service .box {
+	width: 50%;
+	padding-left: 30px;
+}
+.service .box2 {
+	display: flex;
+	flex-wrap: wrap;
+}
+.service .box2 img{
+	margin: 5px;
+}
+.service .over {
+	background-color: rgba(0,0,0,.6);
+}
+.news .over {
+	background-color: rgba(0,0,0,.7);
+}
+.about .over {
+	background-color: rgba(0,0,0,.5);
+}
+.news .box {
+	margin: 50px auto;
+}
+
+.news .container, .animals .container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.news .container .animal-item {
+	margin: 15px;
+	text-align: center;
+}
+.volunteer .over {
+	background-color: rgba(0,0,0,.5);
+}
+.volunteer .box {
+	width: 45%;
+	align-content: flex-start;
+}
+.volunteer .box2 {
+	width: 55%;
+	font-size: 18px;
+	color: #ffffff;
+
+}
+.volunteer p {
+	font-size: 18px
+}
+.volunteer .content, .animals .content {
+	align-items: center;
+	padding-top: 50px;	
+}
+.animals .animal-item {
+	width: 195px;
+	height: 250px;
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
+	margin: 2px;
+	opacity: .2;
+	transition: all 10s ease-out;
+}
+.animals .animal-item:hover {	
+	background-color: #ccc;
+	opacity: 1;
+	transition: all .2s ease-in-out;
+}
+.animals .animal-item .animal-image{
+	width: 195px;
+	height: 250px;
+	overflow: hidden;
+}
+.animals .animal-item img {
+	width: 200px;
+	height: 250px;	
+	transition: all .3s ease-in-out;
+}
+.animals .animal-item img:hover {	
+	transform: scale(1.2);
+	transition: all .2s ease-in-out;
+}
+.help .box a {
+	color: yellow;
+	font-weight: bold;
+}
+.help .box a:hover {
+	background: transparent;
+	color: #000000;
+	font-weight: bold;
+}
+.help .box img {
+	float: right;
+	margin: 7px;
+}
+.help .content {
+	padding-top: 50px;
+}
+.contacts .over {
+	background-color: rgba(0,0,0,.6);
+}
+.contacts .content {
+	padding-top: 50px;
+}
+.contacts .box p{
+	font-size: 18px;
+}
+.our-contacts  span {
+	font-size: 18px;
+}
+.our-contacts a i{
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+.our-contacts .social a{
+	background: transparent;
+	margin-right: 10px; 
+}
+
+/*--media--*/
+@media (max-width: 1240px) {
+	header {
+		width: 1140px;
+	}
+	.content {
+		width: 1140px;
+	}
+	.service .box2 img {
+	    width: 230px;
+	    height: 165px;
+	}
+}
+@media (max-width: 1120px) {
+	body {
+		overflow-y: visible;
+	}
+	header {
+		width: 980px;
+	}
+	.content {
+		width: 980px;
+	}
+	
+	.service .content, 
+	.volunteer .content, 
+	.animals .content {	    
+	    flex-direction: column;
+	}
+	.animals .box {
+		padding-top: 80px;
+	}
+	.about .box {
+	    width: 100%;
+	    padding: 35px;
+	    font-size: 16px;
+	}	
+	
+	.volunteer .content,
+	.animals .content,
+	{
+	    padding-top: 115px;
+	}
+	.service .box {
+	    width: 90%;
+	    padding: 10px;
+	}
+	.volunteer .box {
+	    width: 90%;
+	}
+	.volunteer .box2 {
+	    width: 90%;
+	    font-size: 18px;
+	}
+	.help .content, .volunteer .content {
+	    padding-top: 0;
+	}
+	.contacts .content {
+	    padding-top: 0px;
+	}
+	.contacts .box, .service .box,
+	.help .box, .news .box,	.volunteer .box {
+		padding-top: 120px;
+	}
+	.service .content, .news .content {
+		justify-content: center;
+	}
+	.news .content {
+	    align-items: center;
+	}
+}
+@media (max-width: 980px)  {
+	
+	.desk-menu {
+		display: none !important;
+	}
+	nav {
+		display: block;
+		position: fixed;
+    	top: 23px;
+    	left: 0;
+    	width: 100%;
+	}
+	.dws-menu{
+	  overflow: hidden;
+	 }
+	 .dws-menu ul{
+	  display: block;
+	  height: 0;
+	  transition: max-height 0.3s;
+	 }
+	 .dws-menu ul li {
+	 	padding: 10px 40px;
+	 }
+	 .dws-menu ul li a {
+	     color: #676767;
+	 }
+	 input[type="checkbox"] {
+		display:none;            
+	 }
+	 .fa-bars {
+	 	color: #ffffff;
+	 	margin-right: 30px;
+	 }
+	 .toggleMenu{
+	  float: right;
+	  /*right: 60px;*/
+	 }
+	 .mob-menu li {
+	 	border-bottom: 1px solid #fff;
+	 }
+	 input.toggleMenu:checked + label.toggleMenu{
+	  float: right;
+	  color: #fff;
+	 }
+	 input.toggleMenu:checked ~ .dws-menu{
+	  overflow: visible;
+	 }
+	 input.toggleMenu:checked ~ ul{
+		  display: block;
+		  position: relative;
+		  background-color: #ffcf00;
+		  height: 350px;
+		  margin-top: 50px;
+		  padding-top: 20px;
+		  padding-right: 0;
+		  padding-left: 0;	  
+		  transition: max-height 2s ease-in;
+	 }
+
+	.logo img {
+	    width: 250px;
+	    margin-left: -11px;
+	}
+	header {
+		width: 100%;
+		height: 80px;
+	}
+	.content {
+		width: 100%;
+		height: 100%;
+		padding: 0; 
+	}
+	.content .box{
+		padding: 10px; 
+	}
+	.home .box,
+	.about .box {
+		width: 100%;
+		padding: 25px;
+	}
+	.home .box h2 {
+		font-size: 32px;
+	}
+	.home.box p {
+	    font-size: 16px;
+	}	
+	section .box p, section .box li{
+		font-size: 16px;
+	}		
+	.service .box2 img {
+	    width: 170px;
+	    height: 105px;
+	}
+	.volunteer .box2 {
+	    font-size: 16px;
+	}
+	.contacts .content .box {
+	    padding: 20px;	    
+	}
+	.service .box, .volunteer .box,
+	.news .box, .animals .box, .help .box, 
+	.contacts .box {
+		padding-top: 80px !important;
+	}
+	.volunteer .content, .animals .content,
+	.service .content, .news .content {	    
+	    padding-top: 0;
+	}
+	.animals .animal-item,
+	.animals .animal-item .animal-image {
+	    width: 175px;
+	    height: 200px;
+	}
+	
+	.contacts .box p {
+	    font-size: 16px;
+	}
+	.service .box2 {
+		padding-top: 0 !important;
+	}
+	.news .box, .animals .box {
+		margin: 0;
+	}
+	.help, .contacts, .animals, .service, .news, .volunteer{
+		height: 100%;
+	}
+	.help .box, .news .box {
+		padding: 20px ;
+	}
+	.animals .box {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+}
+@media (max-width: 320px) {}
