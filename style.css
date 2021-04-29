@@ -468,7 +468,7 @@ padding-top: 50px;
 	}
 	.service .box, .volunteer .box,
 	.news .box, .animals .box, .help .box, 
-	.contacts .box {
+	.contacts .box, .about .box {
 		padding-top: 80px !important;
 	}
 	.volunteer .content, .animals .content,
