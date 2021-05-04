@@ -502,4 +502,10 @@ padding-top: 50px;
 	}
 
 }
-@media (max-width: 320px) {}
+@media (max-width: 320px) {
+.animals .animal-item,
+	.animals .animal-item .animal-image {
+	    width: 145px;
+	    height: 195px;
+	}
+}
