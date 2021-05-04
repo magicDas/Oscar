@@ -490,7 +490,7 @@ padding-top: 50px;
 	.news .box, .animals .box {
 		margin: 0;
 	}
-	.help, .contacts, .animals, .service, .news, .volunteer, .about{
+	.help, .contacts, .animals, .service, .news, .volunteer, .about, .home{
 		height: 100%;
 	}
 	.help .box, .news .box {
