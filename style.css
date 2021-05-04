@@ -478,7 +478,12 @@ padding-top: 50px;
 	.animals .animal-item,
 	.animals .animal-item .animal-image {
 	    width: 170px;
-	    height: 190px;
+	    height: 195px;
+	}
+	.animals .animal-item img {
+    		width: 170px;
+    		height: 195px;
+    		transition: all .3s ease-in-out;
 	}
 	
 	.contacts .box p {
@@ -508,4 +513,9 @@ padding-top: 50px;
 	    width: 145px;
 	    height: 195px;
 	}
+.animals .animal-item img {
+    width: 145px;
+    height: 195px;
+    transition: all .3s ease-in-out;
+}	
 }
